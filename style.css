@@ -141,3 +141,29 @@ footer{
     margin-top:50px;
 }
 
+/* Form */
+
+.hero form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.hero input,
+.hero select,
+.hero textarea{
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.hero textarea{
+    min-height: 120px;
+    resize: vertical;
+}
+
+.hero button{
+    font-size: 18px;
+    padding: 14px 35px;
+}
